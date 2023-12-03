@@ -1,0 +1,135 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 12px 150px;
+  height: 450px ;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-header {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+}
+
+.under-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+  flex: auto;
+}
+
+.description-container {
+  width: 500px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  margin-bottom: -8px;
+}
+
+.hero-secondary-text, a {
+  font-size: 18px;
+  color: #b1b3ba;
+}
+
+.sign-up-header {
+  background: #3882f6;
+  color: whitesmoke;
+  border: 0px;
+  padding: 8px 28px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.content {
+  height: 400px;
+  font-size: 36px;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.container-card {
+  display: flex;
+  flex: auto;
+  align-items: center;
+  gap: 22px;
+}
+
+.info-img {
+  border-radius: 12px;
+  border: 5px solid #3882f6;
+}
+
+.text {
+  text-align: center;
+  margin-top: 10px;
+  color: 1f2937;
+}
+
+.quote {
+  background: #e5e7eb;
+  height: 450px;
+  display: flex;
+}
+
+.quote-container {
+  display: flex;
+  font-size: 36px;
+  /* width: 100%;
+  margin: 0 auto; */
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 400px; 
+}
+
+.quote-container > p {
+  font-family: Roboto, sans-serif;
+  color: #444447;
+  margin: 8px;
+}
+
+.quote-container > cite {
+  text-align: end;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.footer {
+  background: #1f2937;
+  height: 80px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-family: Roboto, sans-serif
+}
+
+img.header-img {
+  height: 250px;
+  width: 500px;
+}
